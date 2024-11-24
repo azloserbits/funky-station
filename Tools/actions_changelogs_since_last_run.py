@@ -48,6 +48,8 @@ def main():
     with open(CHANGELOG_FILE, "r") as f:
         cur_changelog = yaml.safe_load(f)
 
+    print(last_changelog)
+
     diff = diff_changelog(last_changelog, cur_changelog)
     send_to_discord(diff)
 
