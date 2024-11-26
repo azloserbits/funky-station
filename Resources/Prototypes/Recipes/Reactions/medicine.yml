@@ -107,7 +107,7 @@
   reactants:
     Oxygen:
       amount: 2
-    Iron: # Funky Chem Expansion
+    Plasma: # Funky Chem Expansion
       amount: 1
       catalyst: true
   products:
@@ -436,7 +436,7 @@
   id: Bruizine
   impact: Medium
   reactants:
-    Libital: 
+    Libital:
       amount: 1
     Lithium:
       amount: 0.9
@@ -457,7 +457,7 @@
     Razorium: 1
 
 - type: reaction
-  id: SalyPuncturase 
+  id: SalyPuncturase
   impact: Medium
   reactants:
     Puncturase:
@@ -468,7 +468,7 @@
     Razorium: 1
 
 - type: reaction
-  id: BicarBruizine 
+  id: BicarBruizine
   impact: Medium
   reactants:
     Bruizine:
@@ -479,7 +479,7 @@
     Razorium: 1
 
 - type: reaction
-  id: BruizineLacerinol 
+  id: BruizineLacerinol
   impact: Medium
   reactants:
     Lacerinol:
@@ -490,7 +490,7 @@
     Razorium: 1
 
 - type: reaction
-  id: BruizinePuncturase 
+  id: BruizinePuncturase
   impact: Medium
   reactants:
     Puncturase:
@@ -501,7 +501,7 @@
     Razorium: 1
 
 - type: reaction
-  id: PuncturaseLacerinol 
+  id: PuncturaseLacerinol
   impact: Medium
   reactants:
     Lacerinol:
@@ -561,7 +561,7 @@
   id: Opporozidone
   minTemp: 400 #Maybe if a method of reducing reagent temp exists one day, this could be -50
   reactants:
-    Cognizine: 
+    Cognizine:
       amount: 1
     Plasma:
       amount: 2
